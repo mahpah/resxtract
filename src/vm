@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for file in *.cs do
+  [ -f "$file" ] && resxtract "$file" -o ../Resources/ViewModels
+done
